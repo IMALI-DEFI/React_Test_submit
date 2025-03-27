@@ -17,3 +17,7 @@
   "username": "admin@gmail.com",
   "password": "admin123"
 }
+## Known Issues
+- Meeting routes require authentication middleware in production
+- CORS headers not configured (only affects frontend testing)
+- Implemented mock mode for assessment purposes
